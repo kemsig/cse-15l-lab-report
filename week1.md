@@ -56,6 +56,7 @@ Using ```cat``` with no arguments will result in the terminal asking for user in
 
 ```
 *Example when the user gives input.*
+```
 [user@john ~/lecture1]$ cat
 Hello
 Hello
@@ -65,15 +66,26 @@ woah
 [user@john ~/lecture1]$
 ```
 
-What happens when you use ```ls``` on a directory path? It will list out all of the *non-hidden* files in that specific directory.
+What happens when you use ```cat``` on a directory path? It will prompt an error.
 ```
-[user@john ~/lecture1]$ ls
-en-us.txt en-mx.txt zh-cn.txt
+[user@john ~/lecture1]$ cat messages/
+cat: messages/: Is a directory
 ```
 
-What happens if you use ```ls``` on something that **isn't** a directory? It will just list that specific file.
+What happens if you use ```cat``` on something that **isn't** a directory (using it on a file)? It will print out all of the text contents of that file onto the terminal.
 ```
-[user@john ~/lecture1]$ ls Hello.java
-Hello.java
+[user@john ~/lecture1]$ cat Hello.java
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+
+public class Hello {
+  public static void main(String[] args) throws IOException {
+    String content = Files.readString(Path.of(args[0]), StandardCharsets.UTF_8);    
+    System.out.println(content);
+  }
+}
+[user@john ~/lecture1]$
 ```
 
