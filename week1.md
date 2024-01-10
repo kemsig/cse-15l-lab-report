@@ -1,11 +1,16 @@
 # Lab Report 1 - **Remote Access and FileSystem** *(Week 1)* 
 ## Context
-File system.
->Home
->> lecture1
->>> messages
->>> > en-us.txt
->>> > zh-cn.txt
+Below is the file system we are referring to.
+
+Home
+└── lecture1
+    ├── Hello.class
+    ├── Hello.java
+    ├── messages
+    │   ├── en-us.txt
+    │   ├── es-mx.txt
+    │   └── zh-cn.txt
+    └── README
 
 ## Command - **Change Directory** (```cd```)
 Using ```cd``` with no arguments should bring you back to your home directory.
