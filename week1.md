@@ -33,10 +33,47 @@ Using ```ls``` with no arguments should list out all of the *non-hidden* files i
 [user@john ~/lecture1]$ ls
 Hello.class Hello.java messages README
 ```
-What happens when you use ```cd``` on a directory path? It will just switch your working directory into the specified directory.
-What happens if you use ```cd``` on something that **isn't** a directory? Simple, it will just prompt an error.
 
-## Command - List ```ls```
-Using ```cd``` with no arguments should bring you back to your home directory.
-What happens when you use ```cd``` on a directory path? It will just switch your working directory into the specified directory.
-What happens if you use ```cd``` on something that **isn't** a directory? Simple, it will just prompt an error.
+What happens when you use ```ls``` on a directory path? It will list out all of the *non-hidden* files in that specific directory.
+```
+[user@john ~/lecture1]$ ls
+en-us.txt en-mx.txt zh-cn.txt
+```
+
+What happens if you use ```ls``` on something that **isn't** a directory? It will just list that specific file.
+```
+[user@john ~/lecture1]$ ls Hello.java
+Hello.java
+```
+
+
+## Command - Concatenate ```cat```
+Using ```cat``` with no arguments will result in the terminal asking for user input, this user input will be echo'd back to the user. In order to exit this mode use the key-combination ```Ctrl+C```.
+
+*note: the blank space is the terminal asking for user input*
+```
+[user@john ~/lecture1]$ cat
+
+```
+*Example when the user gives input.*
+[user@john ~/lecture1]$ cat
+Hello
+Hello
+woah
+woah
+^C
+[user@john ~/lecture1]$
+```
+
+What happens when you use ```ls``` on a directory path? It will list out all of the *non-hidden* files in that specific directory.
+```
+[user@john ~/lecture1]$ ls
+en-us.txt en-mx.txt zh-cn.txt
+```
+
+What happens if you use ```ls``` on something that **isn't** a directory? It will just list that specific file.
+```
+[user@john ~/lecture1]$ ls Hello.java
+Hello.java
+```
+
