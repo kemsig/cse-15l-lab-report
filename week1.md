@@ -32,7 +32,7 @@ bash: cd: README: Not a directory
 [user@john ~/lecture1/]$
 ```
 
-## Command - List ```ls```
+## Command - List (```ls```)
 Using ```ls``` with no arguments should list out all of the *non-hidden* files in your current working directory.
 ```
 [user@john ~/lecture1]$ ls
@@ -52,7 +52,7 @@ Hello.java
 ```
 
 
-## Command - Concatenate ```cat```
+## Command - Concatenate (```cat```)
 Using ```cat``` with no arguments will result in the terminal asking for user input, this user input will be echo'd back to the user. In order to exit this mode use the key-combination ```Ctrl+C```.
 
 *note: the blank space is the terminal asking for user input*
