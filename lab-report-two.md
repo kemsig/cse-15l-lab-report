@@ -135,7 +135,7 @@ This is where our **public key** is located. (*it is located on the remote devic
 Now we are able to connect using ```ssh```to the device ```kamaniti@ieng6.ucsd.edu``` without the need for a password.
 
 Here is an example of me doing this. As you can see it didn't ask for any password, it had just just logged me into the system.
-![ssh](ssh.png)
+![ssh](Images/report2/ssh.png)
 
 #
 
