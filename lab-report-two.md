@@ -61,11 +61,14 @@ Now that we have written, compiled and launched our server we can now start test
 *For reference we had launched the server on:* ```http://localhost:5000/```
 
 **Screenshot 1**
+
 *Input:*
 ```
 http://localhost:5000/add-message?s=Hello%20world,%20to%20all!&user=LinusTorvalds
 ```
+
 *Output:*
+
 ![output_1](Images/report2/output_1.PNG)
 
 **Which methods were called in the code?**
@@ -97,11 +100,14 @@ http://localhost:5000/add-message?s=Hello%20world,%20to%20all!&user=LinusTorvald
 
 
 **Screenshot 2**
+
 *Input:*
 ```
 http://localhost:5000/add-message?s=Hey%20Linus,%20whats%20up.&user=Kayne
 ```
+
 *Output:*
+
 ![output_2](Images/report2/output_2.png)
 
 **Which methods were called in the code?**
