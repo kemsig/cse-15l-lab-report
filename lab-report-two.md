@@ -153,6 +153,7 @@ Here is an example of me doing this. As you can see it didn't ask for any passwo
 
 ## Part 3 - Summary
 **In a couple of sentences, describe something you learned from lab in week 2 or 3 that you didn't know before.**
+
 During the lab's week 2 and 3 I had learend about a really useful command called ```man```. This is short for **manual**. What it does is it exeutes ```man <command>``` which will prompt up documentation on how to use the command.
 
 For example if we use it on:
