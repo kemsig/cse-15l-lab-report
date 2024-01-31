@@ -136,7 +136,7 @@ This is where our **private key** is located. (*it is located on our device that
 ![private_key](Images/report2/private_key.PNG)
 
 This is where our **public key** is located. (*it is located on the remote device that we are connected to*)
-![public_key](Images/report2/public_key.png)
+![public_key](Images/report2/public_key.PNG)
 
 Now we are able to connect using ```ssh```to the device ```kamaniti@ieng6.ucsd.edu``` without the need for a password.
 
