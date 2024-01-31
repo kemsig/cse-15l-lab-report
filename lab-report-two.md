@@ -94,7 +94,7 @@ http://localhost:5000/add-message?s=Hello%20world,%20to%20all!&user=LinusTorvald
 * ```String s_param```: this becomes ```"Hello world, to all!"```
 * ```String user_param```: this becomes ```"LinusTorvalds"```
 
-# 
+
 
 **Screenshot 2**
 *Input:*
@@ -125,9 +125,9 @@ http://localhost:5000/add-message?s=Hey%20Linus,%20whats%20up.&user=Kayne
 * A value that gets changed is ```ArrayList<String> messages```. This is because it had added ```Kayne: Hey Linus, whats up.``` to the ArrayList.
 * ```String parameters[]``` becomes ```{"s=Hey Linus, whats up.", "user=Kayne"}``` (*note the %20's are the encoding for the space character in a URL*)
 * ```String s_param```: this becomes ```"Hey Linus, whats up."```
-* ```String user_param```: this becomes ```"Kayne"``
+* ```String user_param```: this becomes ```"Kayne"```
 
-# 
+ 
 
 ## Part 2 - SSH
 SSH'ing into a system can be quite annoying, having to type in your password everytime you have to access it. We can circumvent this by using the ```ssh-keygen``` command. We genearte a key without a passphrase then use the ```scp``` (Secure Copy) to copy the public key to the remote device.
