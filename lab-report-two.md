@@ -7,7 +7,7 @@ For this lab we had written our own server in Java. This webserver is called ```
 *For more info on the instructions visit [here](https://ucsd-cse15l-w24.github.io/week3/index.html)*.
 
 **Here is the code I wrote:**
-    
+
 ChatServer.java
 ```
 import java.io.IOException;
@@ -71,6 +71,9 @@ http://localhost:5000/add-message?s=Hello%20world,%20to%20all!&user=LinusTorvald
 **Which methods were called in the code?**
 * ```String handleRequest(URI url)```
 * ```String messagesToString()```
+* ```String getPath()```
+* ```boolean equals(Object compared)```
+* ```String[] split(String regex)```
 
 **What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
 * ```String handleRequest(URI url)```
@@ -104,6 +107,9 @@ http://localhost:5000/add-message?s=Hey%20Linus,%20whats%20up.&user=Kayne
 **Which methods were called in the code?**
 * ```String handleRequest(URI url)```
 * ```String messagesToString()```
+* ```String getPath()```
+* ```boolean equals(Object compared)```
+* ```String[] split(String regex)```
 
 **What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
 * This one uses all the same methods.
@@ -130,7 +136,7 @@ This is where our **private key** is located. (*it is located on our device that
 ![private_key](Images/report2/private_key.PNG)
 
 This is where our **public key** is located. (*it is located on the remote device that we are connected to*)
-![public_key](Images/report2/public_key.PNG)
+![public_key](Images/report2/public_key.png)
 
 Now we are able to connect using ```ssh```to the device ```kamaniti@ieng6.ucsd.edu``` without the need for a password.
 
