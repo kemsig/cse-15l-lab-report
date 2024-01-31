@@ -7,7 +7,7 @@ For this lab we had written our own server in Java. This webserver is called ```
 *For more info on the instructions visit [here](https://ucsd-cse15l-w24.github.io/week3/index.html)*.
 
 **Here is the code I wrote:**
-
+    
 ChatServer.java
 ```
 import java.io.IOException;
@@ -66,7 +66,7 @@ Now that we have written, compiled and launched our server we can now start test
 http://localhost:5000/add-message?s=Hello%20world,%20to%20all!&user=LinusTorvalds
 ```
 *Output:*
-![output_1](output_1.PNG)
+![output_1](Images/report2/output_1.PNG)
 
 **Which methods were called in the code?**
 * ```String handleRequest(URI url)```
@@ -99,7 +99,7 @@ http://localhost:5000/add-message?s=Hello%20world,%20to%20all!&user=LinusTorvald
 http://localhost:5000/add-message?s=Hey%20Linus,%20whats%20up.&user=Kayne
 ```
 *Output:*
-![output_2](output_2.png)
+![output_2](Images/report2/output_2.png)
 
 **Which methods were called in the code?**
 * ```String handleRequest(URI url)```
@@ -127,10 +127,10 @@ http://localhost:5000/add-message?s=Hey%20Linus,%20whats%20up.&user=Kayne
 SSH'ing into a system can be quite annoying, having to type in your password everytime you have to access it. We can circumvent this by using the ```ssh-keygen``` command. We genearte a key without a passphrase then use the ```scp``` (Secure Copy) to copy the public key to the remote device.
 
 This is where our **private key** is located. (*it is located on our device that we are currently using*)
-![private_key](private_key.PNG)
+![private_key](Images/report2/private_key.PNG)
 
 This is where our **public key** is located. (*it is located on the remote device that we are connected to*)
-![public_key](public_key.png)
+![public_key](Images/report2/public_key.png)
 
 Now we are able to connect using ```ssh```to the device ```kamaniti@ieng6.ucsd.edu``` without the need for a password.
 
