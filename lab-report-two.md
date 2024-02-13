@@ -25,8 +25,17 @@ class Handler implements URLHandler {
             String s_param = parameters[0].split("=")[1];
             String user_param = parameters[1].split("=")[1];
 
-            messages.add(user_param + ": " + s_param);
-            return messagesToString();
+            //check if parameters match otherwise it will be null
+            String message = null;
+            String user = null;
+            if ("s".equals(s_param[0])){
+                message = s_param[1];
+            }
+            if ("user".equals(user_param[0])){
+                user = user_param[1];
+            }
+
+            messages.add(user + ": " + message);
             // edit below
         } else {
             return "404 Not Found!";
