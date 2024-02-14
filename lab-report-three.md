@@ -4,7 +4,7 @@
 During week 4 had explored various bugs in the following [repo](https://github.com/ucsd-cse15l-f23/lab3).
 
 **A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)**
-When JUnit testing typically if oyu wrote your tester correctly, but your code is faulty, the tester will pose an error meessage. This means the input was failure-inducing.
+When JUnit testing typically if you wrote your tester correctly, but your code is faulty, the tester will pose an error meessage. This means the input was failure-inducing.
 
 The input that causes failure in this case is ```{1,2,3}```, because it fails to be the expected output of ```{3, 2, 1}```.
 
@@ -107,7 +107,7 @@ In order to fix this bug we have to tackle the functionality of the code. Our te
 ## Part 2 - Researching Commands
 When working with so many commands it's only human to forget each of their names and functionalities. Plus each command may come with additional **command-line options** that can potential manipulate the output of the command. The best way to keep track of this is to *READ the DOCS*. One way to access the documentation on the terminal is through the ```man``` command or some commands come with a built in ```--help``` option to help you understand the functionality and tells you all of the command-line options.
 
-In this part we are going to be ```find``` command. The sources we are going to be looking at is ```man find``` and ```find --help```. *I won't be putting the output of these commands because they are very long*.
+In this part we are going to be ```find``` command. The **sources** we are going to be looking at is ```man find``` and ```find --help```. *I won't be putting the output of these commands because they are very long*. I also will be using other sources, which I will link on the specified section.
 
 Using ```find```'s command-line options.
 * ```find <path> -user <user>```
