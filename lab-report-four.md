@@ -25,7 +25,9 @@ git clone git@github.com:<user>/lab7.git
 ```
 
 Example:
+
 ![gclone](Images/report4/gclone.PNG)
+
 
 Keys pressed: (we already have the github link on clipboard)
 ```
@@ -37,7 +39,9 @@ Run the tests, demonstrating that they fail.
 We can run the script ```test.sh``` that is included in the repo to run our tests.
 
 Example:
+
 ![failtests](Images/report4/testfail.PNG)
+
 
 Keys pressed:
 ```
@@ -67,14 +71,19 @@ In order to edit we need to use the **vim text editor** with the command:
 vim <filename>
 ```
 Example of entering vim (BEFORE):
+
 ![vimbf](Images/report4/vimbf.PNG)
-Keys pressed:
+
 
 Example of entering vim (AFTER):
+
 ![vimaf](Images/report4/vimaf.PNG)
 
+
 Example of editng on vim.
+
 ![vimed](Images/report4/vimed.PNG)
+
 
 Keys Pressed:
 ```
@@ -105,7 +114,9 @@ Run the tests, demonstrating that they now succeed.
 Now we that we have edited the tests they should now pass when we rerun the bash script.
 
 Example:
+
 ![testpass](Images/report4/testpass.PNG)
+
 
 Keys Pressed:
 ```
@@ -133,7 +144,9 @@ git push
 ```
 
 Example:
+
 ![git](Images/report4/git.PNG)
+
 
 Keys Pressed:
 ```
